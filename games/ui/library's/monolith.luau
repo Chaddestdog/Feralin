@@ -2777,3 +2777,4 @@ function notifications:create_notification(options)
 		end)
 	end
 end
+return  library
