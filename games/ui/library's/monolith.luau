@@ -60,7 +60,7 @@ local concat = table.concat
 
 -- Library init
 if getgenv().library then
-	library:unloadMenu()
+	getgenv().library:unloadMenu()
 end
 
 getgenv().library = {
