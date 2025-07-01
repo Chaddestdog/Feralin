@@ -132,7 +132,7 @@ local keys = {
 	[Enum.KeyCode.Escape] = "ESC",
 	[Enum.KeyCode.Space] = "SPC",
 }
-
+local library = getgenv().library
 library.__index = library
 
 for _, path in next, library.folders do
