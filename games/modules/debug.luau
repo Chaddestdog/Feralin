@@ -1,5 +1,5 @@
 local module = {};
-local parent = cloneref(UserSettings().GetService(game, 'CoreGui'));
+local parent = cloneref(UserSettings().GetService(game, 'CoreGui')).RobloxGui;
 
 module.new = function(type)
 	if (type == 'Line') then
