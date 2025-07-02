@@ -1,5 +1,5 @@
 local module = {};
-local parent = cloenref(UserSettings().GetService(game, 'CoreGui'));
+local parent = cloneref(UserSettings().GetService(game, 'CoreGui'));
 
 module.new = function(type)
 	if (type == 'Line') then
